@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navLink {
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: black 50px;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+.navLink:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+
+.countryButton {
+  margin-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: inline-block;
+  color: white;
+  border-radius: 50px;
+  font-size: 5rem;
+}
+
+.countryButton:hover {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    border-radius: 0px;
+}
+
+.americaButton {
+  background-image: url("./us-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.americaButton:hover {
+  background-image: url("./us-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.englandButton {
+  background-image: url("./uk-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.englandButton:hover {
+  background-image: url("./uk-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.sovietButton {
+  background-image: url("./ussr-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.sovietButton:hover {
+  background-image: url("./ussr-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.germanyButton {
+  background-image: url("./german-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.germanyButton:hover {
+  background-image: url("./german-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.japanButton {
+  background-image: url("./japan-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.japanButton:hover {
+  background-image: url("./japan-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.navButton {
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+}
+
+.navHomeButton:hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+}
+
+.homePage {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: 0.75rem;
+}
+
+img {
+  max-width: 75%;
+}
+
+.icon {
+  max-width: 50%;
+}
+
+.icon:hover {
+  max-width: 60%;
+}
